@@ -1,21 +1,19 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl: ""
+url: "https://keepintouchfm.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: Keep in Touch
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Keep in Touch podcast with Nick and Todd" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Two geeky dads, Google Developer Group leads, dog owners, and tech enthusiasts keep in touch in spite of being in different hemispheres and a ridiculous number of time zones apart. Todd is a GDG Lead in USA, and Nick is GDG Lead in New Zealand. After meeting at Google I/O they decided to keep in touch and these are their ramblings about all things Apple, Google, neat tech, kids, family, dogs, and whatever else goes through their heads...</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
