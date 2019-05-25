@@ -5,8 +5,6 @@ permalink: /about/
 feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Nick and Todd are two geeky dads, who met at the Google Developer Group Summit in California. Todd is a GDG Lead in USA, and Nick is GDG Lead in New Zealand. 
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+[__Keep in Touch__](https://anchor.fm/keep-in-touch) is their Podcast, giving the two guys another reason to catch up and have some fun with and about technology.

@@ -1,7 +1,7 @@
-{% if site.theme_settings.rss %}
+{% if site.theme_settings.podcast %}
 <li>
-	<a href="{{ "/feed.xml" | relative_url }}" title="{{ site.theme_settings.str_rss_follow }}">
-		<i class="fas fa-fw fa-rss"></i>
+	<a href="{{ site.theme_settings.podcast }}" title="{{ site.theme_settings.str_podcast }}">
+		<i class="fas fa-fw fa-podcast"></i>
 	</a>
 </li>
 {% endif %}
@@ -170,6 +170,14 @@
 <li>
 	<a href="https://gitter.im/{{ site.theme_settings.gitter }}" title="{{ site.theme_settings.str_follow_on }} Gitter">
 		<i class="fab fa-fw fa-gitter"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.rss %}
+<li>
+	<a href="{{ "/feed.xml" | relative_url }}" title="{{ site.theme_settings.str_rss_follow }}">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 {% endif %}

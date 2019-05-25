@@ -16,18 +16,19 @@ theme_settings:
      <p>Two geeky dads, Google Developer Group leads, dog owners, and tech enthusiasts keep in touch in spite of being in different hemispheres and a ridiculous number of time zones apart. Todd is a GDG Lead in USA, and Nick is GDG Lead in New Zealand. After meeting at Google I/O they decided to keep in touch and these are their ramblings about all things Apple, Google, neat tech, kids, family, dogs, and whatever else goes through their heads...</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with a <a href="https://github.com/keepintouchfm/keepintouchfm.github.io">Keep in Touch fork of the Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: keepintouchfm@gmai.com # Full email address, e.g. "sam@example.com"
+  podcast: "https://anchor.fm/keep-in-touch"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "keepintouchfm"
   gitter:
   google_plus:
   instagram:
@@ -38,7 +39,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: # "nicktmro"
   wordpress:
   youtube:
 
@@ -49,6 +50,7 @@ theme_settings:
   search: false # Enable the search feature
 
   # Localization strings
+  str_podcast: "Listen on"
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
