@@ -5,6 +5,7 @@
 1. Install Type Them as per the instructions below
 2. Fork and clone the [Jekyll Importer repo](https://github.com/keepintouchfm/jekyll-import): `git clone https://github.com/keepintouchfm/jekyll-import`
 3. Run the script below and keep the following things in mind: 
+
 3.1. the output is a `_posts` folder containing all the episodes
 3.2. the script will overwrite any existing entries in the `_posts` folder
 3.3. the `lib` folder refers to the `jeklyll-import` project, not the theme so a path adjustment may be necessary
