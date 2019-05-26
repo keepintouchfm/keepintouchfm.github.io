@@ -1,3 +1,27 @@
+# Keep in Touch Customisations and Usage
+
+## Importing posts from the podcast RSS feed
+
+1. Install Type Them as per the instructions below
+2. Fork and clone the [Jekyll Importer repo](https://github.com/keepintouchfm/jekyll-import): `git clone https://github.com/keepintouchfm/jekyll-import`
+3. Run the script below and keep the following things in mind: 
+3.1. the output is a `_posts` folder containing all the episodes
+3.2. the script will overwrite any existing entries in the `_posts` folder
+3.3. the `lib` folder refers to the `jeklyll-import` project, not the theme so a path adjustment may be necessary
+
+```ruby
+ruby -I lib -r rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::RSSPodcast.run({
+      "source" => "https://anchor.fm/s/b73aa40/podcast/rss", "body" => ["description"]
+    })'
+```
+
+Running `jekyll serve` locally will confirm if the import was successful. 
+
+## Customisations 
+
+The theme fork has added support for `open-embed` to automatically detect mp3 files and wrap them in an HTML `audio` tag. 
+
 # Type Theme
 
 ![Default Type Theme blog](https://user-images.githubusercontent.com/816965/30518919-d5978024-9bcd-11e7-81b3-3dd07e99a1f9.png)
