@@ -11,17 +11,19 @@
 3.3. the `lib` folder refers to the `jeklyll-import` project, not the theme so a path adjustment may be necessary
 
 ```ruby
-ruby -I lib -r rubygems -e 'require "jekyll-import";
-    JekyllImport::Importers::RSSPodcast.run({
-      "source" => "https://anchor.fm/s/b73aa40/podcast/rss", "body" => ["description"]
-    })'
+ruby -r rubygems -e 'require "jekyll-import";
+  JekyllImport::Importers::RSSPodcast.run({
+    "source" => "https://anchor.fm/s/b73aa40/podcast/rss",
+    "body" => ["description"],
+    "overwrite" => false
+  })'    
 ```
 
 Running `jekyll serve` locally will confirm if the import was successful. 
 
 ## Customisations 
 
-The theme fork has added support for `open-embed` to automatically detect mp3 files and wrap them in an HTML `audio` tag. 
+The tags page has been hidden from the navigation.
 
 # Type Theme
 
