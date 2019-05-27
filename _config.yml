@@ -13,14 +13,15 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Two geeky dads, Google Developer Group leads, dog owners, and tech enthusiasts keep in touch in spite of being in different hemispheres and a ridiculous number of time zones apart. Todd is a GDG Lead in USA, and Nick is GDG Lead in New Zealand. After meeting at Google I/O they decided to keep in touch and these are their ramblings about all things Apple, Google, neat tech, kids, family, dogs, and whatever else goes through their heads...</p>
+     <p><a href="https://twitter.com/nicktmro">Nick<a/> and <a href="https://twitter.com/todddeland">Todd<a/> are two tech enthusiasts who, despite being in different hemispheres and a ridiculous number of time zones apart, have decided to Keep in Touch via this podcast. They talk about (mobile) tech, Apple, Google, kids and family, dogs, and more.</p>
   header_text_feature_image:
   footer_text: >
+   <p><iframe src="https://anchor.fm/keep-in-touch/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe></p>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with a <a href="https://github.com/keepintouchfm/keepintouchfm.github.io">Keep in Touch fork of the Type Theme</a>
 
   # Icons
-  rss: true
-  email_address: keepintouchfm@gmai.com # Full email address, e.g. "sam@example.com"
+  rss: false
+  email_address: keepintouchfm@gmail.com # Full email address, e.g. "sam@example.com"
   podcast: "https://anchor.fm/keep-in-touch"
   behance:
   bitbucket:
@@ -44,7 +45,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-140897698-1"
   disqus_shortname:
   katex: true # Enable if using math markup
   search: false # Enable the search feature
