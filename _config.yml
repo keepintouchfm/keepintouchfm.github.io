@@ -6,6 +6,7 @@ url: "https://keepintouchfm.github.io/"
 theme_settings:
   # Meta
   title: Keep in Touch
+  subtitle: A podcast with Nick and Todd
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -81,7 +82,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate]
-theme: jekyll-theme-type
+remote_theme: keepintouchfm/keepintouchfm.github.io
 exclude:
   - Gemfile
   - Gemfile.lock

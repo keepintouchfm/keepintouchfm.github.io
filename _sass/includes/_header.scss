@@ -11,8 +11,8 @@
   }
 
   .avatar {
-    height: 2em;
-    width: 2em;
+    height: 5em;
+    width: 5em;
     float: left;
     margin-top: -3px;
     border-radius: 0.2em;
@@ -24,6 +24,13 @@
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
+  }
+
+  .site-subtitle {
+    display: block;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 1.2;
   }
 
   .site-nav {

@@ -6,11 +6,12 @@
 		</a>
 		{% elsif site.theme_settings.avatar %}
 		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
+			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt="Nick and Todd at I/O"/>
 		</a>
 		{% endif %}
 		<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}<span class="site-subtitle">{{ site.theme_settings.subtitle }}</span>
+			</a>
 		</h1>
 	</div>
 	<nav class="site-nav">
