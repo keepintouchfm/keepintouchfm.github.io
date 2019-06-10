@@ -13,11 +13,11 @@
 
 ```ruby
 ruby -r rubygems -e 'require "jekyll-import";
-  JekyllImport::Importers::RSSPodcast.run({
+  JekyllImport::Importers::RSS.run({
     "source" => "https://anchor.fm/s/b73aa40/podcast/rss",
     "body" => ["description"],
-    "overwrite" => false
-  })'    
+    "render_audio" => true
+  })'   
 ```
 
 Running `jekyll serve` locally will confirm if the import was successful. 
