@@ -2,9 +2,10 @@
 
 ## Importing posts from the podcast RSS feed
 
-1. Install Type Them as per the instructions below
+1. Install Type Theme as per the instructions below
 2. Fork and clone the [Jekyll Importer repo](https://github.com/keepintouchfm/jekyll-import): `git clone https://github.com/keepintouchfm/jekyll-import`
-3. Run the script below and keep the following things in mind: 
+3. Install `jekyll-import` by running `gem install jekyll-import`
+4. Run the script below and keep the following things in mind: 
 
 3.1. the output is a `_posts` folder containing all the episodes
 3.2. the script will overwrite any existing entries in the `_posts` folder
