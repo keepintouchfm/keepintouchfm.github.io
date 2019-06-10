@@ -11,8 +11,10 @@
 3.2. the script will overwrite any existing entries in the `_posts` folder
 3.3. the `lib` folder refers to the `jeklyll-import` project, not the theme so a path adjustment may be necessary
 
-```ruby
-ruby -r rubygems -e 'require "jekyll-import";
+
+NOTE: the `-I lib` is used because the PR hasn't yet been merged. Run this scripe from the `jekyll-import` folder.
+```
+ruby -I lib -r rubygems -e 'require "jekyll-import";
   JekyllImport::Importers::RSS.run({
     "source" => "https://anchor.fm/s/b73aa40/podcast/rss",
     "body" => ["description"],
