@@ -22,8 +22,8 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: keepintouchfm@gmail.com # Full email address, e.g. "sam@example.com"
-  podcast: "https://anchor.fm/keep-in-touch"
+  email_address: keepintouchfm@gmail.com 
+  podcast: "https://anchor.fm/s/b73aa40/podcast/rss"
   behance:
   bitbucket:
   dribbble:
@@ -52,7 +52,7 @@ theme_settings:
   search: false # Enable the search feature
 
   # Localization strings
-  str_podcast: "Listen on"
+  str_podcast: "Podcast RSS feed"
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
