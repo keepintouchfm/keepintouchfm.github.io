@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://keepintouchfm.github.io/"
+url: "https://keepintouchfm.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
