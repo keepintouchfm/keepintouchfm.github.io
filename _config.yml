@@ -81,7 +81,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-redirect-from]
 remote_theme: keepintouchfm/keepintouchfm.github.io
 exclude:
   - Gemfile
