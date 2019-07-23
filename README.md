@@ -16,7 +16,7 @@ NOTE: the `-I lib` is used because the PR hasn't yet been merged. Run this scrip
 ```
 ruby -I lib -r rubygems -e 'require "jekyll-import";
   JekyllImport::Importers::RSS.run({
-    "source" => "https://anchor.fm/s/b73aa40/podcast/rss",
+    "source" => "https://rss.whooshkaa.com/rss/podcast/id/8229",
     "body" => ["description"],
     "render_audio" => true
   })'   
