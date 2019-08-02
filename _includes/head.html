@@ -33,8 +33,8 @@
 	<!-- Canonical -->
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
-	<!-- RSS -->
-	<link rel="alternate" type="application/atom+xml" title="{{ site.theme_settings.title }}" href="{{ "/feed.xml" | relative_url }}" />
+	<!-- Podcast RSS, needed for Google Podcasts as per https://developers.google.com/search/docs/guides/podcast-overview#homepage -->
+	<link type="application/rss+xml" rel="alternate" title="Keep in Touch" href="https://rss.whooshkaa.com/rss/podcast/id/8229"/>
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
