@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
-feature-img: "assets/img/sample_feature_img_2.png"
+feature-img: "assets/img/Us.jpg"
 ---
 
 [Nick](https://twitter.com/nicktmro) and [Todd](https://twitter.com/todddeland) met at the Google Developer Group Summit in California. Todd is a GDG Lead in USA, and Nick is GDG Lead in New Zealand. 
