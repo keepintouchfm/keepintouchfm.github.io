@@ -62,4 +62,30 @@
 	ga('send', 'pageview');
 	</script>
 	{% endif %}
+
+	<!-- JPlayer -->
+	<link type="text/css" href="/skin/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet" />
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/assets/js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $("#jquery_jplayer_1").jPlayer({
+			ready: function () {
+			  $(this).jPlayer("setMedia", {
+				title: "Keep in Touch – Live",
+				mp3: "http://123.255.47.169:8000/live.mp3"
+			  });
+			},
+			cssSelectorAncestor: "#jp_container_1",
+			swfPath: "/assets/js",
+			supplied: "mp3",
+			useStateClassSkin: true,
+			autoBlur: false,
+			smoothPlayBar: true,
+			keyEnabled: true,
+			remainingDuration: false,
+			toggleDuration: false
+		  });
+		});
+	  </script>
 </head>
