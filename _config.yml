@@ -27,7 +27,8 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  twitter: "keepintouchfm"
+  facebook: KeepInTouchFM
   flickr:
   gitlab:
   github: "keepintouchfm"
@@ -41,7 +42,6 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "keepintouchfm"
   wordpress:
   youtube:
 
